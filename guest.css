@@ -1,0 +1,70 @@
+.box2 {
+  font-family: 'LeeSeoyun';
+  font-weight: normal;
+  font-style: normal;
+}
+.guestbox {
+  overflow: auto;
+  height: 530px;
+}
+
+.guestbook-image {
+  width: 160px;
+  height: 160px;
+  background-size: cover;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.background-1 {
+  display: block;
+  background-image: url("./assets/4.jpg");
+  width: 160px;
+  height: 160px;
+}
+
+
+.guestbook-image > img {
+  width: 120px;
+  height: 130px;
+  padding: 30px 0 0 10px;
+}
+
+.guest-txtbox {
+  display: flex;
+  align-items: center;
+  width: 500px;
+  margin-bottom: 70px;
+}
+
+.guest-title {
+  background-color: rgb(240, 178, 240);
+  width: 500px;
+  height: 40px;
+  padding-top: 11px;
+  padding-left: 10px;
+  color: white;
+  margin-bottom: 40px;
+}
+.fa-solid {
+  color: rgb(204, 63, 240);
+  padding-right: 5px;
+}
+
+.guest-name {
+  color: black;
+  padding: 0 5px;
+}
+
+.guest-date {
+  color: rgb(136, 134, 134);
+  font-size: small;
+}
+
+.guest-txt {
+  margin-left: 20px;
+  line-height: 20px;
+  font-size: 14px;
+}

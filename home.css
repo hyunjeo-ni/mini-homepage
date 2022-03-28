@@ -1,0 +1,91 @@
+.date {
+  font-size: 12px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.today {
+  color: red;
+  font-family: 'LeeSeoyun';
+  font-weight: normal;
+  font-style: normal;
+}
+
+.total {
+  color: darkgray;
+  font-weight: bold;
+  font-family: 'LeeSeoyun';
+  font-weight: normal;
+  font-style: normal;
+}
+
+.box2 {
+  background-color: white;
+  border: 1px solid gainsboro;
+  border-radius: 10px;
+  height: 600px;
+  padding: 10px 0px 10px 10px;
+}
+
+h3 {
+  color: rgb(216, 151, 246);
+  border-bottom: 1px dashed rgb(133, 132, 132);
+  margin: 10px;
+  font-family: 'LeeSeoyun';
+  font-weight: normal;
+  font-style: normal;
+}
+
+.t_box {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+table tr:nth-child(1) th,
+table tr:nth-child(4) th {
+  background-color: rgb(186, 116, 243);
+}
+
+table tr:nth-child(2) th,
+table tr:nth-child(3) th {
+  background-color: rgb(241, 175, 230);
+}
+
+th {
+  border-radius: 4px;
+  color: white;
+  font-size: 14px;
+  padding: 5px;
+  font-family: 'LeeSeoyun';
+  font-weight: normal;
+  font-style: normal;
+}
+
+td {
+  font-family: 'LeeSeoyun';
+  font-weight: normal;
+  font-style: normal;
+  padding: 5px;
+}
+
+p {
+  font-family: 'LeeSeoyun';
+  font-weight: normal;
+  font-style: normal;
+  border-bottom: 1px dotted black;
+  width: 250px;
+  margin-top: 0;
+}
+
+.box4 > p > span {
+  color: #d3abe2;
+  margin-left: 5px;
+  font-weight: bold;
+}
+
+.miniroom img {
+  display: block;
+  width: 500px;
+  height: 330px;
+}

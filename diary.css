@@ -1,0 +1,120 @@
+.m_date {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 500px;
+  height: 50px;
+  border: 1px lightpink solid;
+  border-radius: 9px;
+  font-family: 'LeeSeoyun';
+  font-weight: normal;
+  font-style: normal;
+  margin-bottom: 30px;
+}
+
+.today_date {
+  text-align: center;
+  margin: 10px;
+  color: pink;
+}
+
+.calender {
+  margin: 10px 10px 10px 0px;
+}
+
+.sat {
+  color: blueviolet;
+}
+
+.sun {
+  color: red;
+}
+
+
+.calender > span {
+  margin-right: 8px;
+  font-size: small;
+}
+
+.weekday_today {
+  border: 2px dotted pink;
+  border-radius: 50%;
+}
+
+.diary {
+  overflow: auto;
+  height: 420px;
+  font-family: 'LeeSeoyun';
+  font-weight: normal;
+  font-style: normal;
+}
+
+.diary_box {
+  border: 1px lightpink solid;
+  border-radius: 9px;
+  width: 500px;
+  margin-bottom: 20px;
+}
+
+.diary_title {
+  color: pink;
+  margin: 20px;
+}
+
+.diary_content {
+  text-align: center;
+  line-height: 30px;
+  margin-bottom: 20px;
+}
+
+.content_color {
+  color: rgb(250, 150, 150);
+}
+
+.content_color2 {
+  color: rgb(138, 138, 245);
+}
+
+.content_color3 {
+  color: rgb(245, 211, 138);
+}
+
+.diary-button {
+  display: block;
+  margin: auto;
+  height: 50px;
+  background-color: rgba(255, 192, 203, 0);
+  color: rgba(240, 248, 255, 0);
+  border: none;
+  font-family: 'LeeSeoyun';
+  font-weight: normal;
+  font-style: normal;
+  border-radius: 9px;
+}
+
+.diary-button:hover {
+  background-color: pink;
+  color: white;
+  transition: 800ms ease all;
+}
+
+#secret-box {
+  display: none;
+  border: 1px lightpink solid;
+  border-radius: 9px;
+  width: 500px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.diary-date {
+  margin: 10px;
+  color: plum;
+}
+
+.diary-text {
+  color: gray;
+  line-height: 30px;
+  margin-bottom: 20px;
+}
+
